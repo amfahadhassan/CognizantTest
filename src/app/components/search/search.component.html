@@ -1,0 +1,9 @@
+<div class="conatiner">
+  <div class="card p-2">
+    <div class="form-group p-2">
+      <input type="text" class="form-control" [formControl]="search" id="search">
+      <button type="submit" class="btn btn-primary" (click)="onSubmit()">Search</button>
+    </div>
+  </div>
+  <app-card [searchData]="searchData"></app-card>
+</div>

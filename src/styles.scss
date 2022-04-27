@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+.conatiner{
+  width: 960px;
+  margin: 0 auto;
+  .form-group{
+    display: flex;
+    .form-control{
+      margin-right: 35px;
+    }
+  }
+  .card-img-top{
+    height: 300px;
+    object-fit: cover;
+  }
+  .card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .searchResult{
+    width: 960px;
+    flex-direction: row;
+
+  }
+  .serachData {
+    flex: 1 0 0;
+    .btn{
+      width: 250px;
+    }
+  }
+}
